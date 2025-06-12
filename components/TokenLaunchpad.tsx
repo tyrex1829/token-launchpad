@@ -5,22 +5,22 @@ export function TokenLaunchpad() {
       <input
         type="text"
         placeholder="Name"
-        className="w-2xs py-5 pl-2.5 border border-gray-600 rounded-xl"
+        className="w-96 py-5 pl-2.5 border border-gray-600 rounded-xl"
       />
       <input
         type="text"
         placeholder="Symbol"
-        className="w-2xs py-5 pl-2.5 border border-gray-600 rounded-xl"
+        className="w-96 py-5 pl-2.5 border border-gray-600 rounded-xl"
       />
       <input
         type="text"
         placeholder="Image URL"
-        className="w-2xs py-5 pl-2.5 border border-gray-600 rounded-xl"
+        className="w-96 py-5 pl-2.5 border border-gray-600 rounded-xl"
       />
       <input
         type="text"
         placeholder="Initial Supply"
-        className="w-2xs py-5 pl-2.5 border border-gray-600 rounded-xl"
+        className="w-96 py-5 pl-2.5 border border-gray-600 rounded-xl"
       />
       <button className="p-5 bg-gray-700 rounded-xl text-white text-xl hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
         Create a token
