@@ -1,7 +1,14 @@
+import RootLayout from "@/components/AppWalletProvider";
+import ConnectWallet from "@/components/ConnectWallet";
+import { TokenLaunchpad } from "@/components/TokenLaunchpad";
+
 export default function Home() {
   return (
     <div>
-      <h1>Solana Token Launchpad platform</h1>
+      <RootLayout>
+        <ConnectWallet />
+      </RootLayout>
+      <TokenLaunchpad />
     </div>
   );
 }
