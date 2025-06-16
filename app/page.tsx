@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <RootLayout>
         <ConnectWallet />
+        <TokenLaunchpad />
       </RootLayout>
-      <TokenLaunchpad />
     </div>
   );
 }
