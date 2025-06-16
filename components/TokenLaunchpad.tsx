@@ -35,7 +35,6 @@ export function TokenLaunchpad() {
         lamports,
         programId: TOKEN_2022_PROGRAM_ID,
       }),
-
       createInitializeMint2Instruction(
         mintKeypair.publicKey,
         9,
@@ -46,9 +45,11 @@ export function TokenLaunchpad() {
     );
 
     transaction.feePayer = wallet.publicKey;
+
     transaction.recentBlockhash = (
       await connection.getLatestBlockhash()
     ).blockhash;
+
     transaction.partialSign(mintKeypair);
 
     await wallet.sendTransaction(transaction, connection);
